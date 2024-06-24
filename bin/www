@@ -37,7 +37,7 @@ const options = {
   cert: fs.readFileSync(path.join(__dirname, 'certificate.pem'))
 };
 
-const secureServer = https.createServer(options, app);
+  const secureServer = https.createServer(options, app);
 
 /**
  * Listen on provided port, on all network interfaces.

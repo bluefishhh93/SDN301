@@ -1,3 +1,7 @@
 node_modules
 yarn.lock
 sessions
+.env
+bin/cert.csr
+bin/certificate.pem
+bin/private.key
